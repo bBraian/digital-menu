@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:server": "json-server server.json -w -d 400",
-    "build": "vite build",
+    "build": "vite build --output public",
     "preview": "vite preview"
   },
   "dependencies": {
