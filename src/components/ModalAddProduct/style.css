@@ -1,0 +1,191 @@
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    display: flex;
+}
+
+.modal-add-product {
+    margin: 5vh auto;
+    width: 80%;
+    height: 82vh;
+    overflow-y: scroll;
+    max-width: 500px;
+    border-radius: 12px;
+    background-color: #F9F9F1;
+    position: relative;
+}
+
+.section-modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(51, 51, 51);
+}
+
+.modal-block-infos {
+    width: 100%;
+}
+
+.section-modal-form {
+    border-radius: 0 0 12px 12px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.image-modal {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-box-close-icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.modal-box-close-icon:hover {
+    background-color: rgba(63, 63, 63, 0.4);
+}
+
+.modal-close-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.modal-p-name {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.modal-p-description {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.modal-p-price {
+    font-weight: 500;
+}
+
+.modal-add-separator {
+    width: 99%;
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+    margin: 16px 0;
+}
+
+.opt {
+    margin-top: 6px !important;
+}
+
+.section-modal-comments {
+    width: 100%;
+    margin: 2px;
+}
+
+.modal-comments-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+}
+
+.modal-comments-input {
+    border: 0.5px solid rgb(78, 78, 78);
+    border-radius: 10px;
+    padding: 8px 5px;
+    width: 97%;
+    height: 45px;
+    background-color: #F9F9F1;
+    resize: none;
+}
+
+.section-buttons-addtocart {
+    height: 55px;
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.more-less-modal-button {
+    display: flex;
+    background-color: #fff;
+    height: 38px;
+    width: 95px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 6px 20px 0px #7e7e7e;
+}
+
+.modal-button-minus, .modal-button-plus {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: 28px;
+    border: 0;
+    height: 28px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all ease-in-out 0.2s;
+}
+
+.modal-button-minus:hover, .modal-button-plus:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.modal-button-minus {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.modal-button-plus {
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.modal-product-qtd {
+    font-size: 16px;
+}
+
+.button-addtocart {
+    background-color: rgb(66, 66, 66);
+    height: 38px;
+    width: 95px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.button-addtocart:hover {
+    background-color: #7e7e7e;
+}

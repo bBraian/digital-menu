@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-background {
+    width: 100%;
+    height: 125px;
+    position: relative;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-company-align {
+    width: 100%;
+    max-width: 1128px;
+    display: flex;
+    padding: 8px 25px;
+}
+
+.company-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.company-logo {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    border-radius: 6px;
+    margin-top: -65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company-text {
+    position: relative;
+    padding-left: 108px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
